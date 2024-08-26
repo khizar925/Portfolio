@@ -291,10 +291,10 @@ img {
   z-index: var(--z-back);
 }
 .skills__html {
-  width: 95%;
+  width: 80%;
 }
 .skills__css {
-  width: 85%;
+  width: 70%;
 }
 .skills__js {
   width: 65%;
@@ -302,16 +302,30 @@ img {
 .skills__ux {
   width: 85%;
 }
+.skills__cpp {
+  width: 80%;
+}
+.skills__git {
+  width: 65%;
+}
+.skills__sql {
+  width: 70%;
+}
 .skills__img {
   border-radius: 0.5rem;
 }
 
 /* ===== WORK =====*/
+
 .work__container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
   row-gap: 2rem;
 }
+
 .work__img {
-  box-shadow: 0px 4px 25px rgba(14, 36, 49, 0.15);
+  width: calc(50% - 1rem);
   border-radius: 0.5rem;
   overflow: hidden;
 }
